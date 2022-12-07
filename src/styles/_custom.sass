@@ -1,14 +1,45 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: rotate 10s linear infinite
     position: absolute
-    top: 40%
-    right: 50%
+    top: 13%
+    right: 27%
+    width: 75%
   &-2
+    position: absolute
+    top: 28%
+    right: 32%
+
+  &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 48%
+    right: 28%
+
+  &-4
+    animation: float1 2.8s ease-in-out infinite alternate
+    top: 18%
+    right: 32%
+
+  &-5
+    animation: float1 2.8s ease-in-out infinite alternate
+    top: 18%
+    right: 32%
+
+  &-6
+    top: 68%
+    right: 32%
+
+
+  &-7
+    animation: float1 2.8s ease-in-out infinite alternate
+    top: 10%
+    right: 68%
+
+  &-8
+    animation: float1 2.8s ease-in-out infinite alternate
+    top: 30%
+    right: 78%
 
 
 @keyframes float1
@@ -17,3 +48,363 @@
 
   100%
     transform: translateY(0px)
+
+@keyframes rotate 
+  0%
+    transform: rotate(0)
+
+  100%
+    transform: rotate(360deg)
+
+//Estilos 
+
+.bloque-texto-f.color-secundario:before 
+    background-color: #FFF4E4
+
+.bloque-texto-f:before 
+    top: 15px
+    left: 0
+    right: 40%
+    bottom: 20px
+
+.bloque-texto-b:before 
+    top: 10%
+    bottom: 0
+    left: 35%
+    right: 0
+
+.bloque-texto-b.color-secundario:before 
+    background-color: #FFF4E4
+
+//// Tarjetas --------------------------------------
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-color: #F6F6F6
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background: linear-gradient(180deg, rgba(25,137,226,1) 0%, rgba(10,81,139,1) 100%)
+      h4, p
+        color: white 
+      .bottomCircle
+        &::before
+          background-color: #FED981
+  &.crd--blue
+    background-color: #B1DBEA
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+.bottomCircle
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 115px
+    height: 115px
+    background-color: #116EB9
+    border-radius: 999px
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: black
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #EEE9FD
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first
+  &::before 
+    background-color: #FFF5E5 !important
+
+.crd--last
+  &::before 
+    background-color: #D2E1F1 !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+
+.tarjeta--boton 
+    background-color: #FEF4E4
+    height: 210px
+
+.bloque-texto-g__img2
+    left: 50% !important
+
+.bloque-texto-g__texto2
+    right: 35% !important
+    width: 65% !important
+
+.bloque-texto-z
+  position: relative
+  &:before
+    content: ''
+    display: block
+    position: absolute
+    top: 57%
+    bottom: 5%
+    left: 35%
+    right: 0%
+  &__texto
+    position: relative
+    *
+      display: inline
+  i
+    font-size: 2.5em
+    color: $color-acento-contenido
+    &:first-of-type
+      margin-right: 15px
+    &:last-of-type
+      margin-left: 15px
+      vertical-align: text-top
+
+  &.color-primario
+    &:before
+      background-color: #EBEFF6
+  &.color-secundario
+    &:before
+      background-color: #EBEFF6
+  &.color-acento-contenido
+    &:before
+      background-color: $color-acento-contenido
+  &.color-acento-botones
+    &:before
+      background-color: $color-acento-botones
+
+.bloque-texto-y
+  position: relative
+  &:before
+    content: ''
+    display: block
+    position: absolute
+    top: 50%
+    bottom: -5%
+    left: 35%
+    right: 0%
+  &__texto
+    position: relative
+    *
+      display: inline
+  i
+    font-size: 2.5em
+    color: $color-acento-contenido
+    &:first-of-type
+      margin-right: 15px
+    &:last-of-type
+      margin-left: 15px
+      vertical-align: text-top
+
+  &.color-primario
+    &:before
+      background-color: #EBEFF6
+  &.color-secundario
+    &:before
+      background-color: #FFF4E4
+  &.color-acento-contenido
+    &:before
+      background-color: #FFF4E4
+  &.color-acento-botones
+    &:before
+      background-color: #FFF4E4
+
+.background1-tema-1
+    background-color: #E8E2FD
+    border-radius: 22px
+
+.img-25-porciento
+  margin-left: -20%
+
+.clr-paleYellow
+  background-color: #FFF8D9
+
+.cajonAmarillo
+  position: relative
+  &:before
+    content: ''
+    display: block
+    width: 25px
+    height: 10px
+    position: absolute
+    top: 0
+    left: 0
+
+  &.color-primario
+    background-color: #FFF6DB
+    &:before
+      background-color: #FDB74D
+  &.color-secundario
+    background-color: lighten($color-secundario, 20%)
+    &:before
+      background-color: $color-secundario
+  &.color-acento-contenido
+    background-color: lighten($color-acento-contenido, 30%)
+    &:before
+      background-color: $color-acento-contenido
+  &.color-acento-botones
+    background-color: lighten($color-acento-botones, 35%)
+    &:before
+      background-color: $color-acento-botones
+
+.bgr-tarjeta2-tema1:before
+    background: #8C6DF2
+    
+.bgr-tarjeta2-tema1
+    background: #E2DAFC
+
+.linea-hr
+  border: solid 1px
+  color: #AFAFAF
+
+///// SLyder A tipo B Custom --------------------------------------
+.slyder-a__tipo-b .slyder-a__btn--atrs
+  background-color: #EEAC3A
+
+.slyder-a__tipo-b .slyder-a__btn--sigt
+  background-color: #EEAC3A
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs  
+  border: none
+
+.slyder-a__bullets__item--active
+  background-color: #8C5BE1 !important
+  border: none
+
+.slyder-a__bullets__item
+  background-color: #AFAFAF  
+
+.background-slide-tema1
+   background-color: #FFFAEA
+   background-size: 100% 100%
+
+.img-45-porciento
+  margin-top: -50%
+  position: absolute
+  width: 160px
+  margin-left: -20%
+
+///// Linea tiempo D --------------------------------------
+.linea-tiempo-d__item__content.tarjeta.tarjeta--gris, .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+  background-color: #F6F6F6
+
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: #E2DAFC
+
+.linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+    background-color: #E2DAFC
+  
+.bgr-tarjeta3-tema1:before
+    background: #FFFAEA
+    
+.bgr-tarjeta3-tema1
+    background: #E2DAFC
+
+.align-time-line
+  text-align: initial
+
+///// colores --------------------------------------
+.clr--gris
+  background-color: #f3f3f3
+.clr--pink
+  background-color: #FDB74D
+.clr--pink02
+  background-color: #FFDFE0
+.clr--orange
+  background-color: #FF6B00
+.clr--gray
+  background-color: #F9F9F9
+.clr--paleBlue
+  background-color: #ECF3FB
+.clr--paleGreen
+  background-color: #DEF2F4
+
+.pasos-b__header__item--before .pasos-b__header__item__dot 
+    border-color: #FDB74D
+    background-color: #FDB74D
+
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b__header__item__line-container:after 
+    background-color: #FDB74D
+
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before 
+    background-color: #FDB74D
+
+.pasos-b.color-acento-contenido .pasos-b__header__item--active .pasos-b__header__item__dot span 
+    color: #fff
+
+.img-55-porciento 
+    margin-top: -55%
+    position: absolute
+    min-width: 190px
+    margin-left: -25%
+
+///// Custom acordeon A tipo A -------------------------------------- 
+.tarjeta.acordeonA
+  background-color: #EEE9FD
+
+.acordion__accion__btn--a
+  background-color: #fff !important
+
+.acordion__activo
+  background-color: #FEF6DB !important
+
+.img-83-porciento 
+    margin-top: -83%
+    position: absolute
+    min-width: 250px
+    margin-left: -70%
+
+.tarjeta.color-acento-botones 
+    background-color: #FEF6DB
+    height: 300px
+    
+
+.tarjeta.color-acento-botones * 
+    color: $black
+
+.avatar-tema2
+  margin-left: 10%
+  width: 90%
+
+
+
+    
+
+  
+
+
+
