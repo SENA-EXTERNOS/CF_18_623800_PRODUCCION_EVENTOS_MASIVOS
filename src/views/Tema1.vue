@@ -32,7 +32,7 @@
                   figure(data-aos="zoom-in-left")
                     img(src='@/assets/curso/temas/tema1/img2.svg', alt='Texto que describa la imagen')
 
-              p.text-small Deben existir mínimo dos partes interesadas en realizar la negociación.
+              p.text-small.text-center Deben existir mínimo dos partes interesadas en realizar la negociación.
 
           .col-sm-6.col-lg-4.mb-4.mb-lg-0
             .tarjeta--boton.color-acento-contenido.p-4
@@ -41,7 +41,7 @@
                   figure(data-aos="zoom-in-left")
                     img(src='@/assets/curso/temas/tema1/img3.svg', alt='Texto que describa la imagen')
 
-              p.text-small Cada parte debe tener algo que le interesa a la otra parte.
+              p.text-small.text-center Cada parte debe tener algo que le interesa a la otra parte.
 
           .col-sm-6.col-lg-4.mb-4.mb-sm-0
             .tarjeta--boton.color-acento-contenido.text-white--hover.p-4
@@ -50,7 +50,7 @@
                   figure(data-aos="zoom-in-left")
                     img(src='@/assets/curso/temas/tema1/img4.svg', alt='Texto que describa la imagen')
 
-              p.text-small Las dos partes deben estar dispuestos a llegar a acuerdos en un modelo de ‘gana - gana’.
+              p.text-small.text-center Las dos partes deben estar dispuestos a llegar a acuerdos en un modelo de ‘gana - gana’.
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mt-5
       .bloque-texto-g__img.bloque-texto-g__img2(
@@ -85,18 +85,18 @@
     .row.justify-content-around.align-items-center
       .col-10
         .row.justify-content-around.align-items-center.mt-5.background1-tema-1
-          .col-2
+          .col-lg-2.col-xs-6
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema1/img9.svg', alt='Texto que describa la imagen').img-25-porciento
           .col-10
-            p Las técnicas de negociación son herramientas con las que cuentan una empresa y sus colaboradores, por medio de las cuales pueden llegar a acuerdos con los clientes, proveedores u otros actores para desarrollar su ejercicio empresarial en un mercado. No se trata de imponer mis condiciones, se trata de tener una relación de ganancia para ambas partes.
+            p.mt-3 Las técnicas de negociación son herramientas con las que cuentan una empresa y sus colaboradores, por medio de las cuales pueden llegar a acuerdos con los clientes, proveedores u otros actores para desarrollar su ejercicio empresarial en un mercado. No se trata de imponer mis condiciones, se trata de tener una relación de ganancia para ambas partes.
             
     .row.mt-5
       p #[b Existen varias técnicas de negociación]  
 
     .row.justify-content-around.align-items-center.mt-3
       .col-lg-9.order-2.order-lg-1
-        TabsA.color-acento-botones.mb-5        
+        TabsA.color-acento-contenido.mb-5        
           .tarjeta.clr-paleYellow.p-4(titulo="Acomodativa")
             h4 Acomodativa
             p Es una estrategia en donde una de las partes acepta los términos de la otra parte, con el propósito de establecer una relación comercial que será duradera. No se persiguen resultados en el corto plazo por la parte que cede, pero esto será de manera temporal, algo así como ‘perder para ganar’.
@@ -185,27 +185,27 @@
         figure(data-aos="zoom-in-left")
           img(src='@/assets/curso/temas/tema1/img16.svg', alt='Texto que describa la imagen')
 
-      .tarjeta.color-acento-botones.p-3(x="23.6%" y="75%" numero="1")
+      .tarjeta.color-acento-botones.p-3.text-white(x="23.6%" y="75%" numero="1")
         .h5.mb-2 Escuchar a los clientes
         p Esto tiene que ver con el servicio al cliente, en todo momento todo el personal debe estar dispuesto a dar el 100% en servicio ofreciendo, preguntando, asesorando y resolviendo cualquier inconveniente o duda que tenga de los productos o servicios ofrecidos.
     
-      .tarjeta.color-acento-botones.p-3(x="36.6%" y="35%" numero="2")
+      .tarjeta.color-acento-botones.p-3.text-white(x="36.6%" y="35%" numero="2")
         .h5.mb-2 Crear un programa de fidelización
         p Se trata de abrir este canal a los clientes y no solo para ventas sino para que el cliente encuentre soluciones y oportunidades. Es una buena manera de establecer un contacto permanente con su autorización.
 
-      .tarjeta.color-acento-botones.p-3(x="49.6%" y="75%" numero="3")
+      .tarjeta.color-acento-botones.p-3.text-white(x="49.6%" y="75%" numero="3")
         .h5.mb-2 Automatizar procesos
         p Analizar cada uno de los procesos que tengan que ver con el cliente y mejorarlos y dar opciones para que se le atienda o que el mismo se autogestione y se agilice, para ello es importante crear un modelo de CRM (#[i Customer Relationship Management]) en donde se pueda alimentar con información relevante e importante del cliente para así conocerlo mejor y poder interactuar con él de manera efectiva.
 
-      .tarjeta.color-acento-botones.p-3(x="62.6%" y="35%" numero="4")
+      .tarjeta.color-acento-botones.p-3.text-white(x="62.6%" y="35%" numero="4")
         .h5.mb-2 Servicio postventa
         p La venta no termina en la caja registradora, allí comienza. Establecer mecanismos de servicio después de realizada la compra es fundamental para ganarse la fidelización del cliente, es hacerlo sentir importante es preocuparse por su necesidad y por el mismo.
 
-      .tarjeta.color-acento-botones.p-3(x="75.6%" y="75%" numero="5")
+      .tarjeta.color-acento-botones.p-3.text-white(x="75.6%" y="75%" numero="5")
         .h5.mb-2 Personalizar el cliente
         p Crear mecanismos de contacto, pero de manera personalizada, para hacerlo sentir bien y único.
 
-      .tarjeta.color-acento-botones.p-3(x="88.6%" y="35%" numero="6")
+      .tarjeta.color-acento-botones.p-3.text-white(x="88.6%" y="35%" numero="6")
         .h5.mb-2 Recompensas
         p Sacrificar también es ganar, dejar que el cliente sienta que ganó es primordial. Establecer promociones o mecanismos en donde cada cliente se sienta recompensado por su fidelidad.
 
@@ -294,11 +294,11 @@
     .row.justify-content-around.align-items-center
       .col-10
         .row.justify-content-around.align-items-center.background1-tema-1
-          .col-2
+          .col-lg-2.col-xs-6
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema1/img23.svg', alt='Texto que describa la imagen').img-45-porciento
           .col-10
-            p Las técnicas de negociación son herramientas con las que cuentan una empresa y sus colaboradores, por medio de las cuales pueden llegar a acuerdos con los clientes, proveedores u otros actores para desarrollar su ejercicio empresarial en un mercado. No se trata de imponer mis condiciones, se trata de tener una relación de ganancia para ambas partes.
+            p.margen-text Las técnicas de negociación son herramientas con las que cuentan una empresa y sus colaboradores, por medio de las cuales pueden llegar a acuerdos con los clientes, proveedores u otros actores para desarrollar su ejercicio empresarial en un mercado. No se trata de imponer mis condiciones, se trata de tener una relación de ganancia para ambas partes.
             
 
     .row.justify-content-center.align-items-center.mb-5.mt-5          
@@ -433,14 +433,14 @@
 
     .row.justify-content-center.mb-4
       .col-lg-12
-        .crd.clr--gray.brd--rad.p-4.background-slide-tema1
+        .crd.clr--gray.brd--rad.p-4
           PasosB.color-acento-contenido
             .row.justify-content-center(titulo="").pt-3
               .col-lg-7.mb-4.mb-lg-0
                 h5 Búsqueda de prospectos:
                 p Es la primera etapa, que corresponde a la consecución de aquellos prospectos, posibles clientes o compradores de los productos o servicios. Es clave tener claridad de quiénes serán los clientes.
 
-              .col-lg-4.col-6
+              .col-lg-4.col-xs-6
                 figure(data-aos="zoom-in-left")
                   img(src='@/assets/curso/temas/tema1/img31.png', alt='')
 
@@ -449,7 +449,7 @@
                 h5 Previo al acercamiento:
                 p Investigación previa de cada posible cliente: es necesario tener toda la información detallada y clara. Si se trata de personas, se debe conocer cada uno de sus perfiles psicográficos, dónde vive, qué hace, qué le gusta, qué desea, etc. Si se trata de una empresa, debe conocer el tipo de empresa, sector económico, a qué se dedica, número de empleados, tamaño, entre otros. 
 
-              .col-lg-4.col-6
+              .col-lg-4.col-xs-6
                 figure(data-aos="zoom-in-left")
                   img(src='@/assets/curso/temas/tema1/img32.png', alt='') 
 
@@ -458,7 +458,7 @@
                 h5 Acercamiento:
                 p El vendedor debe saber cómo acercarse, en dónde se va a manejar la reunión de ventas, cómo debe vestir y cómo debe actuar. Gracias a la información obtenida con la etapa anterior, toda esa investigación servirá para establecer un acercamiento exitoso y eficaz.
       
-              .col-lg-4.col-6
+              .col-lg-4.col-xs-6
                 figure(data-aos="zoom-in-left")
                   img(src='@/assets/curso/temas/tema1/img33.png', alt='')     
 
@@ -467,7 +467,7 @@
                 h5 Presentación:
                 p Etapa en donde el vendedor tendrá la oportunidad de hacer la presentación al cliente de todas las cualidades del producto o servicio, y podrá mostrar la historia de valor del producto o servicio, lo que lo hace diferente y el respaldo de la empresa.
 
-              .col-lg-4.col-6
+              .col-lg-4.col-xs-6
                 figure(data-aos="zoom-in-left")
                   img(src='@/assets/curso/temas/tema1/img34.png', alt='')   
 
@@ -476,7 +476,7 @@
                 h5 Manejo de objeciones:
                 p El vendedor tendrá que conocer en detalle y entender la información total de la empresa y del portafolio de productos, con el fin de poder dar respuesta a todas las inquietudes del cliente.    
               
-              .col-lg-4.col-6
+              .col-lg-4.col-xs-6
                 figure(data-aos="zoom-in-left")
                   img(src='@/assets/curso/temas/tema1/img35.png', alt='')
 
@@ -485,7 +485,7 @@
                 h5 Cierre de venta: 
                 p Punto crítico en el proceso, ya que el vendedor debe conocer y entender cuándo cerrar la venta, si no maneja esta distinción, muy posiblemente la perderá.
 
-              .col-lg-4.col-6
+              .col-lg-4.col-xs-6
                 figure(data-aos="zoom-in-left")
                   img(src='@/assets/curso/temas/tema1/img36.png', alt='')
 
@@ -495,7 +495,7 @@
                 h5 Seguimiento: 
                 p Una vez la venta ha sido cerrada es importante hacerle seguimiento constante, no solo para nuevas ventas, sino para lograr la satisfacción total del cliente.
                 
-              .col-lg-4.col-6
+              .col-lg-4.col-xs-6
                 figure(data-aos="zoom-in-left")
                   img(src='@/assets/curso/temas/tema1/img37.png', alt='')
 

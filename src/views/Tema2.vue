@@ -31,11 +31,11 @@
     .row.justify-content-around.align-items-center
       .col-10
         .row.justify-content-around.align-items-center.mt-5.background1-tema-1
-          .col-2
+          .col-lg-2.col-xs-6
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema2/img2.svg', alt='Texto que describa la imagen').img-55-porciento
-          .col-10
-            p Para facilitar el trabajo del área comercial, la empresa debe ayudar a las fuerzas de ventas poniendo a disposición algunas herramientas para su labor; estas sirven para facilitar y establecer seguimiento y control de las ventas de la organización. Dentro de estas ayudas se tienen: manejo de agenda, acceso a bases de datos o prospectos de clientes nuevos, comunicación con otras áreas internas de la compañía, como producción, facturación, contratos o pagos, atención al cliente, entre muchas otras, dependiendo cada caso y empresa. 
+          .col-10.p-4
+            p.margen-text Para facilitar el trabajo del área comercial, la empresa debe ayudar a las fuerzas de ventas poniendo a disposición algunas herramientas para su labor; estas sirven para facilitar y establecer seguimiento y control de las ventas de la organización. Dentro de estas ayudas se tienen: manejo de agenda, acceso a bases de datos o prospectos de clientes nuevos, comunicación con otras áreas internas de la compañía, como producción, facturación, contratos o pagos, atención al cliente, entre muchas otras, dependiendo cada caso y empresa. 
 
     .row.mt-5
       p #[b Datos importantes sobre las herramientas de ventas:]
@@ -125,7 +125,7 @@
 
     .row.justify-content-around.align-items-center.mt-3
       .col-lg-9.order-2.order-lg-1
-        TabsA.color-acento-botones.mb-5        
+        TabsA.color-acento-contenido.mb-5        
           .tarjeta.clr-paleYellow.p-4(titulo="Número del contrato y fecha")
             h4 Número del contrato y fecha
             p Firmar con fecha y dar consecutivo interno el número de contrato.
@@ -227,10 +227,10 @@
     .row.justify-content-around.align-items-center
       .col-10
         .row.justify-content-around.align-items-center.mt-5.background1-tema-1
-          .col-2
+          .col-lg-2.col-xs-6
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema2/img12.svg', alt='Texto que describa la imagen').img-83-porciento
-          .col-10
+          .col-10.p-4
             p Las objeciones no deben considerarse como algo negativo en una empresa, ya que ayudan a que el proceso de ventas, el servicio, la producción y en general toda la empresa, crezca en función de las necesidades del cliente. Si son bien canalizadas y se tratan como un indicador, se generarán muchas respuestas valiosas para cualquier organización, pues sencillamente permiten darse cuenta de aquellos aspectos o procesos que no están bien, que deben ajustarse o explicarse mejor a los clientes. 
 
             p En muchos casos el no entender el manejo de objeciones hace perder clientes y se confunde con procesos de negociación, esencialmente porque el vendedor o la persona de servicio al cliente, en el momento de verdad, no conoce ni aplica el proceso esencial de tan solo 4 pasos. 
@@ -243,19 +243,19 @@
         figure(data-aos="zoom-in-left")
           img(src='@/assets/curso/temas/tema2/img13.svg', alt='Texto que describa la imagen')
 
-      .tarjeta.color-acento-botones.p-3(x="30%" y="32%" numero="1")
+      .tarjeta.color-acento-botones.p-3.text-white(x="30%" y="32%" numero="1")
         .h5.mb-2 Escuchar 
         p Dejar hablar, guardar silencio, concentrarse en la otra persona y el mensaje.
 
-      .tarjeta.color-acento-botones.p-3(x="40%" y="16%" numero="2")
+      .tarjeta.color-acento-botones.p-3.text-white(x="40%" y="16%" numero="2")
         .h5.mb-2 Reconocer
         p Entender de qué se trata la objeción. No contradecir inmediatamente.
 
-      .tarjeta.color-acento-botones.p-3(x="60%" y="32%" numero="3")
+      .tarjeta.color-acento-botones.p-3.text-white(x="60%" y="32%" numero="3")
         .h5.mb-2 Analizar
         p Analizar muy bien el mensaje y la objeción.
 
-      .tarjeta.color-acento-botones.p-3(x="75%" y="16%" numero="4")
+      .tarjeta.color-acento-botones.p-3.text-white(x="75%" y="16%" numero="4")
         .h5.mb-2 Responder
         p Responder con grandeza, con respeto y en un tono conciliador y agradable, generando confianza.
 
@@ -291,32 +291,32 @@
       p #[b Piense entonces que cada evento es un momento definitivo y único, por ejemplo:]
 
     SlyderF(columnas="col-lg-6 col-xl-4")
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.tarjeta-3.p-4
         .row.justify-content-center.mb-3
           .col-6
             img(src='@/assets/curso/temas/tema2/img16.svg' alt='AvatarTop')
         p.text-center Una pareja que se va a casar.
 
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.tarjeta-3.p-4
         .row.justify-content-center.mb-3
           .col-6
             img(src='@/assets/curso/temas/tema2/img17.svg' alt='AvatarTop')
         p.text-center Una empresa que quiere agasajar a sus colaboradores por el trabajo realizado.
 
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.tarjeta-3.p-4
         .row.justify-content-center.mb-3
           .col-6
             img(src='@/assets/curso/temas/tema2/img18.svg' alt='AvatarTop')
         p.text-center Una convención esperada durante un año.
 
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.tarjeta-3.p-4
         .row.justify-content-center.mb-3
           .col-6
             img(src='@/assets/curso/temas/tema2/img19.svg' alt='AvatarTop')
 
         p.text-center La celebración para un presidente de una compañía que se retira.
 
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.tarjeta-3.p-4
         .row.justify-content-center.mb-3
           .col-6
             img(src='@/assets/curso/temas/tema2/img20.svg' alt='AvatarTop')
@@ -358,11 +358,11 @@
     .row.justify-content-around.align-items-center
       .col-10
         .row.justify-content-around.align-items-center.mt-5.background1-tema-1
-          .col-2
+          .col-lg-2.col-xs-6
             figure(data-aos="zoom-in")
-              img(src='@/assets/curso/temas/tema2/img21.svg', alt='Texto que describa la imagen').img-25-porciento
+              img(src='@/assets/curso/temas/tema2/img21.svg', alt='Texto que describa la imagen').img-187-porciento
           .col-10
-            p Un acuerdo es un pacto o convenio que se hace entre dos partes, en donde ambas obtienen beneficios de acuerdo con su modalidad de trabajo. En el caso de un organizador de eventos, estos acuerdos se realizan no solo con clientes sino con los proveedores que maneja y que son determinantes para la gestión del evento. 
+            p.mt-3 Un acuerdo es un pacto o convenio que se hace entre dos partes, en donde ambas obtienen beneficios de acuerdo con su modalidad de trabajo. En el caso de un organizador de eventos, estos acuerdos se realizan no solo con clientes sino con los proveedores que maneja y que son determinantes para la gestión del evento. 
 
     .row.mt-5
       p #[b Los acuerdos para un organizador pueden ser:]
@@ -394,11 +394,11 @@
     .row.justify-content-around.align-items-center
       .col-10
         .row.justify-content-around.align-items-center.mt-5
-          .col-2
+          .col-lg-2.col-xs-6
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema2/img25.svg', alt='Texto que describa la imagen').img-25-porciento
           .col-10
-            p Es importante que en los anteriores acuerdos se incluyan a los hoteles, agencias de viajes, empresas de transporte y demás proveedores que sean necesarios para poder cumplir con el desarrollo del evento. Muchos de estos acuerdos se pueden firmar legalmente para definir las condiciones; sin embargo, también hay acuerdos implícitos que se dan por la confianza y las labores ya realizadas, en este aspecto cada organizador de eventos ya decidirá qué camino tomar.
+            p.mt-3 Es importante que en los anteriores acuerdos se incluyan a los hoteles, agencias de viajes, empresas de transporte y demás proveedores que sean necesarios para poder cumplir con el desarrollo del evento. Muchos de estos acuerdos se pueden firmar legalmente para definir las condiciones; sin embargo, también hay acuerdos implícitos que se dan por la confianza y las labores ya realizadas, en este aspecto cada organizador de eventos ya decidirá qué camino tomar.
 
 
     .row.justify-content-around.align-items-center
