@@ -112,13 +112,13 @@
           img(src='@/assets/curso/temas/tema2/img8.svg', alt='Texto que describa la imagen') 
 
       .col-lg-5
-        p(data-aos="fade-down").mt-3 Es importante establecer las condiciones, incluyendo fechas límite, seguros necesarios y los requerimientos de adelantos de dinero para que el organizador pueda prever pagos con proveedores, y así pueda ir desarrollando la planeación y organización del evento. Por ejemplo, para reservar una sede o salón es importante hacer un pago anticipado o abono, igual sucede con tiquetes aéreos, hoteles, servicios de catering, diseñadores, proveedores de sonido, artistas, etc.
+        p(data-aos="fade-down").mt-3 Es importante establecer las condiciones, incluyendo fechas límite, seguros necesarios y los requerimientos de adelantos de dinero para que el organizador pueda prever pagos con proveedores, y así pueda ir desarrollando la planeación y organización del evento. Por ejemplo, para reservar una sede o salón es importante hacer un pago anticipado o abono, igual sucede con tiquetes aéreos, hoteles, servicios de #[i catering], diseñadores, proveedores de sonido, artistas, etc.
 
     .row.justify-content-around.align-items-center
       .col-lg-12
         .bloque-texto-b.color-primario.p-4     
             .bloque-texto-b__texto
-              p Cuando las empresas nacen en los mercados, al comienzo no se percatan de que llegarán a este punto en el cual deben concentrarse en pensar cómo negociar. No se trata solo de ir a donde otra empresa o persona y establecer unos criterios, también se trata de los productos con presencia en los mercados, los cuales se están negociando y cuentan con una estrategia de #[em marketing-mix] dirigida a los posibles clientes y/o usuarios.
+              p No se debe olvidar la firma de las partes y definir claramente la fecha de desarrollo del evento, los entregables finales, si se incluyen servicios como fotografías, memorias, videos, entre otros que requieren un tiempo de producción posterior a la realización del evento, y la fecha de finalización del contrato. Se recomienda asesorarse legalmente de acuerdo con las reglas legales y tributarias de cada país o región, con el fin de no tener inconvenientes con los contratos. Entre más transparente y específico sea el contrato es mejor para ambas partes.
 
     .row.mt-5
       p #[b Las siguientes son las condiciones mínimas que debe tener un contrato de organización de eventos:]
@@ -147,7 +147,7 @@
             p Se describen la mayor cantidad de actividades a desarrollar, se debe hacer de forma específica. Importante establecer cantidades, por ejemplo: cena para 200 personas.
 
           .tarjeta.clr-paleYellow.p-4(titulo="Plazos o tiempos máximos")
-            h4 Por Plazos o tiempos máximos
+            h4 Plazos o tiempos máximos
             p Tiempos de ambas partes para el desarrollo del evento, máximo y mínimo en tiempo.
 
           .tarjeta.clr-paleYellow.p-4(titulo="Fecha de realización del evento")
@@ -378,8 +378,8 @@
               figure(data-aos="zoom-in-left")
                 img(src="@/assets/curso/temas/tema2/img23.svg", alt="alt").img100
             .col
-              h5 La propuesta de valor 
-              p Esto es apostarle a unos excelentes productos y servicios, que en verdad logren satisfacer las necesidades y deseos de los prospectos; es decir, estar alineado para poder ofrecer soluciones. 
+              h5 De ventas
+              p Se realizan cuando las dos partes unen sus esfuerzos y experiencia para convertirse en una opción más grande para el mercado. Esta unión los hace llegar a otros mercados que quizá solos no podrían alcanzar. En este acuerdo hay negociación interna por el derecho del negocio y cada uno cobrará sus ganancias de acuerdo con lo pactado, y compartirá las pérdidas si llegaran a existir.
 
         
         .crd.crd--avatarHorizontal.crd--last.py-4
@@ -388,9 +388,9 @@
               figure(data-aos="zoom-in-left")
                 img(src="@/assets/curso/temas/tema2/img24.svg", alt="alt").img100
             .col
-              h5 Ponerse en los zapatos del cliente
-              p Esto se hace para conocerlo bien, estudiarlo, estar en contacto permanente con sus requerimientos y dejarlo opinar sobre los productos o servicios, con el fin de ir desarrollando mejoras que le permitan ser fiel a la marca.
-
+              h5 De producción
+              p En las grandes industrias se consideran para compartir la producción de productos y poder llegar a tener mejores y mayores producciones. En la organización de eventos se desarrollan para acordar tiempos, precios, personalización y mejores garantías frente a otras empresas competidoras. 
+              
     .row.justify-content-around.align-items-center
       .col-10
         .row.justify-content-around.align-items-center.mt-5

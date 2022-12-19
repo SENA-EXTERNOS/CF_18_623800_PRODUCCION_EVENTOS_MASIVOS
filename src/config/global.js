@@ -106,7 +106,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.8',
             titulo:
-              'Aplicar herramientas de ventas y Customer Relationship Management',
+              'Aplicar herramientas de ventas y <em>Customer Relationship Management</em>',
             hash: 't_1_8',
           },
         ],
@@ -210,7 +210,7 @@ export default {
     {
       tema: 'Proceso de venta',
       referencia:
-        'Aguilar, A. (2020). Kotler capítulo 16 (16.7) <em>Cuál es el PROCESO DE VENTAS ideal para nuestra EMPRESA</em> [Video].',
+        'Aguilar, A. (2020). <em>Kotler capítulo 16</em> (16.7) <em>Cuál es el PROCESO DE VENTAS ideal para nuestra EMPRESA</em> [Video].',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=KCqK-XAeEbY',
     },

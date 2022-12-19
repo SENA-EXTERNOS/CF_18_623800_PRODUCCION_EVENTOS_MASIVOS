@@ -142,8 +142,11 @@
           .bloque-texto-y__texto
             p Como se indicaba al comienzo del capítulo, fidelizar un cliente es el punto máximo de cualquier actividad comercial, pues significa que preferiría esa marca por encima de las otras de manera voluntaria. Sin embargo no es sensato confiarse, pues también es muy sencillo perder clientes cuando la competencia está haciendo su trabajo. Por ello, se hace indispensable aplicar técnicas para poder mantener a ese cliente cerca y lograr fidelizarlo.
 
+    .row.mt-5
+      p #[b Para ello se debe pensar en:]
 
-    .row.justify-content-center.mb-5.mt-5
+
+    .row.justify-content-center.mb-5
       .col-lg-9.position-relative.mt-5
         .avatar
           figure(data-aos="zoom-in-left")
@@ -298,8 +301,8 @@
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema1/img23.svg', alt='Texto que describa la imagen').img-45-porciento
           .col-10
-            p.margen-text Las técnicas de negociación son herramientas con las que cuentan una empresa y sus colaboradores, por medio de las cuales pueden llegar a acuerdos con los clientes, proveedores u otros actores para desarrollar su ejercicio empresarial en un mercado. No se trata de imponer mis condiciones, se trata de tener una relación de ganancia para ambas partes.
-            
+            p.margen-text La habilidad es la capacidad de un individuo de realizar una acción con facilidad y de manera correcta, por ello, cada persona debe enfocarse en el desarrollo de sus diferentes habilidades. En el ámbito de las ventas, la comunicación es una habilidad muy importante e indispensable, pues de esta, sumada a otras que el vendedor tiene que desarrollar, depende la eficacia de las ventas. 
+
 
     .row.justify-content-center.align-items-center.mb-5.mt-5          
       .col-lg-12(data-aos="fade-left")     
@@ -423,7 +426,7 @@
       .col-lg-10
         .bloque-texto-y.color-secundario.p-4.mt-3 
           .bloque-texto-y__texto
-            p Como se indicaba al comienzo del capítulo, fidelizar un cliente es el punto máximo de cualquier actividad comercial, pues significa que preferiría esa marca por encima de las otras de manera voluntaria. Sin embargo no es sensato confiarse, pues también es muy sencillo perder clientes cuando la competencia está haciendo su trabajo. Por ello, se hace indispensable aplicar técnicas para poder mantener a ese cliente cerca y lograr fidelizarlo.
+            p Las empresas trabajan todo el tiempo en función de obtener cada vez más clientes y encargarse de retenerlos. Es por ello que el proceso de ventas cobra gran relevancia desde la perspectiva de la empresa, porque es el mecanismo que alimenta de combustible el desarrollo de la empresa, es decir, el que se encarga de conseguir recursos para que la empresa se mantenga.
             br
             br
             p Por ello, vender se sustenta en cumplir varios pasos que se deben seguir para anticiparse y poder prever los resultados esperados, y así poder atraer, convencer y mantener a un cliente.
