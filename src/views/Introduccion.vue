@@ -21,7 +21,7 @@
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/introduccion/img1.svg', alt='Texto que describa la imagen') 
 
-    .row.justify-content-center.align-items-center.mb-5.mt-5         
+    .row.justify-content-center.align-items-center.mb-5.mt-4         
       .col-lg-12(data-aos="fade-left")     
         figure
           .video

@@ -398,7 +398,7 @@
     #t_1_7.mt-5(data-aos="zoom-in-left")
       h3 Proceso y técnicas de ventas
 
-    .row.justify-content-around.align-items-center.mt-
+    .row.justify-content-around.align-items-center.mt-4
       .col-lg-2
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema1/img30.svg', alt='Texto que describa la imagen') 
