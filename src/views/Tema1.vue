@@ -62,16 +62,14 @@
           br
           | La relación de estas dos palabras es consecuente y definitiva para una compañía y los productos o servicios que pone a disposición en el mercado, pues primero es necesario negociar desde todos los puntos de vista; pero allí no termina, ese es solo el punto de partida para lograr la fidelización deseada por las empresas.
 
-    separador
+ 
 
-    #t_1_1
+    #t_1_1.mt-5(data-aos="zoom-in-left")
+      h3 Técnicas y modelos de negociación
 
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 1.1 Técnicas y modelos de negociación
-
-    .row.justify-content-around.align-items-center
+    .row.align-items-center
       .col-lg-4
-        .bloque-texto-z.color-primario.p-4     
+        .bloque-texto-z.color-primario.pe-4     
             .bloque-texto-z__texto
               p Cuando las empresas nacen en los mercados, al comienzo no se percatan de que llegarán a este punto en el cual deben concentrarse en pensar cómo negociar. No se trata solo de ir a donde otra empresa o persona y establecer unos criterios, también se trata de los productos con presencia en los mercados, los cuales se están negociando y cuentan con una estrategia de #[em marketing-mix] dirigida a los posibles clientes y/o usuarios.
 
@@ -92,7 +90,7 @@
             p.mt-3 Las técnicas de negociación son herramientas con las que cuentan una empresa y sus colaboradores, por medio de las cuales pueden llegar a acuerdos con los clientes, proveedores u otros actores para desarrollar su ejercicio empresarial en un mercado. No se trata de imponer mis condiciones, se trata de tener una relación de ganancia para ambas partes.
             
     .row.mt-5
-      p #[b Existen varias técnicas de negociación]  
+      p #[b Existen varias técnicas de negociación:]  
 
     .row.justify-content-around.align-items-center.mt-3
       .col-lg-9.order-2.order-lg-1
@@ -125,12 +123,10 @@
         figure(data-aos="zoom-in-left")
           img(src="@/assets/curso/temas/tema1/img10.svg", alt="alt", style="width:450px;").m-auto
 
-    separador
+    
 
-    #t_1_2
-
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 1.2 Técnicas de fidelización    
+    #t_1_2.mt-5(data-aos="zoom-in-left")
+      h3 Técnicas de fidelización    
 
     .row.justify-content-around.align-items-center.mt-5
       .col-lg-2
@@ -140,7 +136,7 @@
       .col-lg-10
         .bloque-texto-y.color-secundario.p-4.mt-3 
           .bloque-texto-y__texto
-            p Como se indicaba al comienzo del capítulo, fidelizar un cliente es el punto máximo de cualquier actividad comercial, pues significa que preferiría esa marca por encima de las otras de manera voluntaria. Sin embargo no es sensato confiarse, pues también es muy sencillo perder clientes cuando la competencia está haciendo su trabajo. Por ello, se hace indispensable aplicar técnicas para poder mantener a ese cliente cerca y lograr fidelizarlo.
+            p Fidelizar un cliente es el punto máximo de cualquier actividad comercial, pues significa que preferiría esa marca por encima de las otras de manera voluntaria. Sin embargo, no es sensato confiarse, pues también es muy sencillo perder clientes cuando la competencia está haciendo su trabajo. Por ello, se hace indispensable aplicar técnicas para poder mantener a ese cliente cerca y lograr fidelizarlo. 
 
     .row.mt-5
       p #[b Para ello se debe pensar en:]
@@ -158,7 +154,7 @@
                 img(src="@/assets/curso/temas/tema1/img13.svg", alt="alt").img100
             .col
               h5 La propuesta de valor 
-              p Esto es apostarle a unos excelentes productos y servicios, que en verdad logren satisfacer las necesidades y deseos de los prospectos; es decir, estar alineado para poder ofrecer soluciones. 
+              p Es apostarle a unos excelentes productos y servicios que logren satisfacer las necesidades y deseos de los prospectos; es decir, estar alineado para poder ofrecer soluciones.
 
         .crd.crd--avatarHorizontal.py-4
           .row.align-items-center
@@ -179,9 +175,9 @@
               p Esto se hace para conocerlo bien, estudiarlo, estar en contacto permanente con sus requerimientos y dejarlo opinar sobre los productos o servicios, con el fin de ir desarrollando mejoras que le permitan ser fiel a la marca.
 
     .row.mt-5
-      p Ahora se explicarán algunas técnicas para fidelizar clientes.
+      p.mb-4 Algunas técnicas de negociación y fidelización de los clientes son: 
 
-      p #[b Dentro de las técnicas de negociación tenemos:]
+      h3.text-center Técnicas de negociación
 
     ImagenInfografica.color-secundario
       template(v-slot:imagen)
@@ -212,12 +208,10 @@
         .h5.mb-2 Recompensas
         p Sacrificar también es ganar, dejar que el cliente sienta que ganó es primordial. Establecer promociones o mecanismos en donde cada cliente se sienta recompensado por su fidelidad.
 
-    separador
 
-    #t_1_3
 
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 1.3 Solución de conflictos
+    #t_1_3.mt-5(data-aos="zoom-in-left")
+      h3 Solución de conflictos
 
     .row.justify-content-around.align-items-center
       .col-lg-12
@@ -238,7 +232,7 @@
           .col-10
             p(data-aos="fade-down").mt-3 #[b Conflictos intelectuales: ]
 
-            p(data-aos="fade-down").mt-3 Tienen que ver con las discrepancias que se pueden presentar por opiniones, argumentaciones o ponencias y puntos de vista sobre temas en particular. 
+            p(data-aos="fade-down").mt-3 Tiene que ver con las discrepancias que se pueden presentar por opiniones, argumentaciones, ponencias y puntos de vista sobre temas en particular. 
 
         .row.justify-content-around.align-items-center
           .hr-5.linea-hr
@@ -256,9 +250,9 @@
           img(src='@/assets/curso/temas/tema1/img19.svg', alt='Texto que describa la imagen')
 
     .row.mt-5
-      p Es importante identificar qué tipos de conflictos se están presentando en los negocios, para así poder transformarlos y tomar decisiones a tiempo, puesto que un problema entre cliente y empresa puede ocasionar la pérdida de clientes.
+      p.mb-5 Es importante identificar qué tipos de conflictos se están presentando en los negocios, para así poder transformarlos y tomar decisiones a tiempo, puesto que un problema entre cliente y empresa puede ocasionar la pérdida de clientes.
 
-      p #[b Veamos un poco más sobre los conflictos: ]
+      p #[b Un poco más sobre los conflictos: ]
 
     .tarjeta.tarjeta--azul.p-4.background-slide-tema1
       SlyderA(tipo="b")
@@ -272,7 +266,7 @@
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p Es importante para el vendedor entender que no se trata de algo personal, pues muchas veces se espera que el cliente acepte todas las condiciones que la empresa dispone, algo que no siempre sucede y que hace necesario empatizar con el cliente. Además, se debe entender que al tratarse de una interacción humana, el entrar en conflicto es normal y se debe aceptar, no como algo negativo que se castigue, sino por el contrario, como algo de lo que aprender, para enfrentar, aceptar y mejorar el trato a los clientes.
+            p Es importante para el vendedor entender que no se trata de algo personal, pues muchas veces se espera que el cliente acepte todas las condiciones que la empresa dispone, algo que no siempre sucede y que hace necesario empatizar con el cliente. Además, se debe entender que, al tratarse de una interacción humana, entrar en conflicto es normal y se debe aceptar, no como algo negativo que se castigue, sino, por el contrario, como algo de lo que se debe aprender, para enfrentar, aceptar y mejorar el trato con los clientes.
 
           .col-md-6
             figure(data-aos="zoom-in-left")
@@ -287,22 +281,20 @@
               img(src='@/assets/curso/temas/tema1/img22.png', alt='Texto que describa la imagen')
    
 
-    separador
 
-    #t_1_4
-
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 1.4 Habilidades de comunicación, reacciones emocionales 
+    #t_1_4.mt-5(data-aos="zoom-in-left")
+      h3.mb-4 Habilidades de comunicación, reacciones emocionales 
 
     .row.justify-content-around.align-items-center
-      .col-10
+      .col-11
         .row.justify-content-around.align-items-center.background1-tema-1
           .col-lg-2.col-xs-6
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema1/img23.svg', alt='Texto que describa la imagen').img-45-porciento
           .col-10
-            p.margen-text La habilidad es la capacidad de un individuo de realizar una acción con facilidad y de manera correcta, por ello, cada persona debe enfocarse en el desarrollo de sus diferentes habilidades. En el ámbito de las ventas, la comunicación es una habilidad muy importante e indispensable, pues de esta, sumada a otras que el vendedor tiene que desarrollar, depende la eficacia de las ventas. 
+            p.margen-text.mb-0 La habilidad es la capacidad de un individuo de realizar una acción con facilidad y de manera correcta, por ello, cada persona debe enfocarse en el desarrollo de sus diferentes habilidades. En el ámbito de las ventas, la comunicación es una habilidad muy importante e indispensable, pues de esta, sumada a otras que el vendedor tiene que desarrollar, depende la eficacia de las ventas. 
 
+    p.mt-5 Lo invitamos a observar el siguiente video, en el que se ampliará el tema de las habilidades de comunicación y reacciones emocionales:
 
     .row.justify-content-center.align-items-center.mb-5.mt-5          
       .col-lg-12(data-aos="fade-left")     
@@ -310,13 +302,10 @@
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)            
               
-      
-    separador
 
-    #t_1_5
 
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 1.5 Momentos de verdad 
+    #t_1_5.mt-5(data-aos="zoom-in-left")
+      h3 Momentos de verdad 
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mt-5
       .bloque-texto-g__img.bloque-texto-g__img(
@@ -352,16 +341,13 @@
           p(numero="7" titulo="Solución de problemas") Cuando sucede algo con el cliente, este acudirá directamente a quien le vendió pues ese fue su primer contacto; el vendedor o el área de soporte deberán estar atentos a cualquier inconveniente, por pequeño que sea, y así extender la confianza.
 
 
-    separador
 
-    #t_1_6
-
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 1.6 Aplicar la escucha activa
+    #t_1_6.mt-5(data-aos="zoom-in-left")
+      h3 Aplicar la escucha activa
 
     .row.justify-content-around.align-items-center
       .col-lg-4
-        .bloque-texto-z.color-primario.p-4   
+        .bloque-texto-z.color-primario.pe-4   
             .bloque-texto-z__texto
               p Una de las habilidades del ser humano es escuchar, y no solo escuchar, sino comprender. En el caso de las ventas, esta acción es fundamental para entender claramente lo que necesita el cliente. Saber leer las necesidades del cliente es fundamental para ofrecer los productos o servicios de una marca con asertividad. Un vendedor, gerente o cualquier otra persona que trabaje en servicio al cliente, que no sepa escuchar a los compradores, pierde tanto la oportunidad de vender como la de mejorar.
 
@@ -382,7 +368,6 @@
         .col-md-9.mb-4.mb-md-0
           h3 Nivel 1
           p La persona se encuentra pensativa, está en la capacidad de escucharse y entenderse al mismo tiempo a sí misma.
-
         .col-md-3
           figure(data-aos="zoom-in-left")
             img(src='@/assets/curso/temas/tema1/img27.svg', alt='Texto que describa la imagen')
@@ -391,7 +376,6 @@
         .col-md-3.mb-4.mb-md-0
           figure(data-aos="zoom-in-left")
             img(src='@/assets/curso/temas/tema1/img28.svg', alt='Texto que describa la imagen')
-
         .col-md-9
           h3.align-time-line Nivel 2
           p.align-time-line La persona detiene sus pensamientos internos y atiende únicamente lo que otra persona o situación le está comunicando.
@@ -400,25 +384,21 @@
         .col-md-9.mb-4.mb-md-0
           h3 Nivel 3
           p La persona relaciona los entendimientos, es decir, entiende sus propios pensamientos y entiende lo que le está diciendo la otra persona o situación. Además, está pendiente del entorno de la comunicación, texto o información correspondiente.
-
         .col-md-3
           figure(data-aos="zoom-in-left")
             img(src='@/assets/curso/temas/tema1/img29.svg', alt='Texto que describa la imagen')
 
-    .row.justify-content-around.align-items-center
+    .row.justify-content-center.align-items-center
       .col-lg-12
         .cajonAmarillo.bgr-tarjeta2-tema1.p-4.mt-3
-          p(data-aos="fade-down") Dentro de estos niveles hay factores que afectan o interrumpen la atención, tales como las reuniones y la conexión tecnológica, como teléfonos móviles, televisores, audífonos, entre otros. 
+          p.mb-0(data-aos="fade-down") Dentro de estos niveles hay factores que afectan o interrumpen la atención, tales como las reuniones y la conexión tecnológica, como teléfonos móviles, televisores, audífonos, entre otros. Por esta razón, es indispensable estar concentrado para que no se desvíen los temas, estar en función de lo que el otro esté diciendo, siempre mostrando interés en la conversación.
 
 
-    separador
 
-    #t_1_7
+    #t_1_7.mt-5(data-aos="zoom-in-left")
+      h3 Proceso y técnicas de ventas
 
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 1.7 Proceso y técnicas de ventas
-
-    .row.justify-content-around.align-items-center.mt-5
+    .row.justify-content-around.align-items-center.mt-
       .col-lg-2
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema1/img30.svg', alt='Texto que describa la imagen') 
@@ -503,12 +483,9 @@
                   img(src='@/assets/curso/temas/tema1/img37.png', alt='')
 
 
-    separador
 
-    #t_1_8
-
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 1.8 Aplicar herramientas de ventas y #[i Customer Relationship Management]
+    #t_1_8.mt-5(data-aos="zoom-in-left")
+      h3 Aplicar herramientas de ventas y #[i Customer Relationship Management]
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mt-5
       .bloque-texto-g__img.bloque-texto-g__img(
@@ -518,7 +495,7 @@
         p.mb-0 Cada vez más, y gracias a la tecnología, se crean nuevas herramientas que apoyan la labor comercial, no solo para la toma del pedido sino también para que los clientes puedan autogestionarse y tomar sus propias decisiones. Con la llegada de la internet se abrieron todas las posibilidades para desarrollar procesos a medida entre empresa y cliente.
 
     .row.mt-5
-      p #[b Veamos un poco más sobre estas herramientas. ]
+      p #[b Un poco más sobre estas herramientas: ]
 
     .tarjeta.tarjeta--azul.p-4.background-slide-tema1
       SlyderA(tipo="b")
