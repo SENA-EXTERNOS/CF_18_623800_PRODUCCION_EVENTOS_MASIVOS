@@ -9,33 +9,31 @@
 
     .row.justify-content-around.align-items-center.mt-5
       .col-lg-8
-        .bloque-texto-z.color-secundario.p-4.mt-3 
+        .bloque-texto-z.color-secundario.p-4.ps-0.mt-3
           .bloque-texto-z__texto
             p Como en cualquier otro proceso de negociación entre partes, los organizadores de eventos también deben establecer un contrato que tienen que firmar con sus clientes al momento de realizar cualquier servicio. En este documento el organizador debe incluir todas aquellas actividades que se compromete a realizar, de acuerdo con lo conversado previamente con el cliente o usuario, ya que es este último quien define qué es lo que se quiere en el evento a realizar.Los contratos son documentos prediseñados por el organizador que deben adaptarse a cada cliente y negocio en particular, sin importar el evento.
             br
             br
-            Para poder llegar a la firma de un contrato, el organizador de eventos o su fuerza de ventas requieren contar con unas herramientas que faciliten este proceso, así como tener claras algunas pautas y pasos que se verán a continuación. 
+            p Para poder llegar a la firma de un contrato, el organizador de eventos o su fuerza de ventas requiere contar con herramientas que faciliten este proceso, así como tener claras algunas pautas y pasos que se verán a continuación:
 
 
       .col-lg-4
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema2/img1.svg', alt='Texto que describa la imagen') 
 
-    separador
 
-    #t_2_1
 
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 2.1 Herramientas de ventas
+    #t_2_1.mt-5.mb-3(data-aos="zoom-in-left")
+      h3 Herramientas de ventas
 
     .row.justify-content-around.align-items-center
       .col-10
-        .row.justify-content-around.align-items-center.mt-5.background1-tema-1
+        .row.justify-content-around.align-items-center.mt-4.background1-tema-1
           .col-lg-2.col-xs-6
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema2/img2.svg', alt='Texto que describa la imagen').img-55-porciento
           .col-10.p-4
-            p.margen-text Para facilitar el trabajo del área comercial, la empresa debe ayudar a las fuerzas de ventas poniendo a disposición algunas herramientas para su labor; estas sirven para facilitar y establecer seguimiento y control de las ventas de la organización. Dentro de estas ayudas se tienen: manejo de agenda, acceso a bases de datos o prospectos de clientes nuevos, comunicación con otras áreas internas de la compañía, como producción, facturación, contratos o pagos, atención al cliente, entre muchas otras, dependiendo cada caso y empresa. 
+            p.margen-text Para facilitar el trabajo del área comercial, la empresa debe ayudar a las fuerzas de ventas poniendo a disposición algunas herramientas para su labor; estas sirven para facilitar y establecer seguimiento y control de las ventas de la organización. Dentro de estas ayudas se tienen: manejo de agenda, acceso a bases de datos o prospectos de clientes nuevos, comunicación con otras áreas internas de la compañía, como producción, facturación, contratos o pagos, atención al cliente, entre muchas otras, dependiendo de cada caso y empresa. 
 
     .row.mt-5
       p #[b Datos importantes sobre las herramientas de ventas:]
@@ -77,7 +75,7 @@
     .row.justify-content-around.align-items-center
       .col-lg-10
         .cajonAmarillo.bgr-tarjeta2-tema1.p-4.mt-3
-          p(data-aos="fade-down") En el siguiente documento Anexo 1_ Herramientas de ventas, encontrará algunas de las herramientas más importantes para una empresa organizadora de eventos.
+          p.mb-0(data-aos="fade-down") En el siguiente documento Anexo 1_ Herramientas de ventas, encontrará algunas de las herramientas más importantes para una empresa organizadora de eventos.
 
     .row.justify-content-around.align-items-center
       .col-lg-10
@@ -89,19 +87,16 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 PDF - Anexo 1
-                  p.text-small Herramientas de ventas
+                  p.mb-0 Herramientas de ventas
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
 
-    separador
 
-    #t_2_2
-
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 2.2 Contrato con el cliente
+    #t_2_2.mt-5(data-aos="zoom-in-left")
+      h3 Contrato con el cliente
 
     .row.justify-content-around.align-items-center
       .col-lg-4
@@ -116,9 +111,9 @@
 
     .row.justify-content-around.align-items-center
       .col-lg-12
-        .bloque-texto-b.color-primario.p-4     
-            .bloque-texto-b__texto
-              p No se debe olvidar la firma de las partes y definir claramente la fecha de desarrollo del evento, los entregables finales, si se incluyen servicios como fotografías, memorias, videos, entre otros que requieren un tiempo de producción posterior a la realización del evento, y la fecha de finalización del contrato. Se recomienda asesorarse legalmente de acuerdo con las reglas legales y tributarias de cada país o región, con el fin de no tener inconvenientes con los contratos. Entre más transparente y específico sea el contrato es mejor para ambas partes.
+        .bloque-texto-b.color-primario.pe-4.py-4     
+          .bloque-texto-b__texto
+            p No se debe olvidar la firma de las partes y definir claramente la fecha de desarrollo del evento, los entregables finales, incluyen servicios como fotografías, memorias, videos, entre otros, que requieren un tiempo de producción posterior a la realización del evento y la fecha de finalización del contrato. Se recomienda asesorarse legalmente de acuerdo con las reglas legales y tributarias de cada país o región, con el fin de no tener inconvenientes con los contratos. Entre más transparente y específico sea el contrato es mejor para ambas partes.
 
     .row.mt-5
       p #[b Las siguientes son las condiciones mínimas que debe tener un contrato de organización de eventos:]
@@ -169,12 +164,9 @@
           img(src="@/assets/curso/temas/tema2/img9.svg", alt="alt", style="width:450px;").m-auto
 
 
-    separador
-
-    #t_2_3
-
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 2.3 El servicio posventa
+    
+    #t_2_3.mt-5(data-aos="zoom-in-left")
+      h3 El servicio posventa
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mt-5
       .bloque-texto-g__img.bloque-texto-g__img(
@@ -217,12 +209,9 @@
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/temas/tema2/img11.png", alt="alt").img400.m-auto
 
-    separador
 
-    #t_2_4
-
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 2.4 Objeciones 
+    #t_2_4.mt-5(data-aos="zoom-in-left")
+      h3 Objeciones 
 
     .row.justify-content-around.align-items-center
       .col-10
@@ -270,12 +259,10 @@
         br
         p.mb-0 Por esto hay que saber hablar, tener paciencia y tomarse el tiempo de explicar al cliente cualquier eventualidad que se presente. Recordemos que este servicio es único y no se puede repetir, por ello el manejo de objeciones debe anticiparse con el equipo de trabajo y con el cliente. La transparencia del organizador con los clientes desde un principio será fundamental para la disminución de objeciones durante el evento.
 
-    separador
+    
 
-    #t_2_5
-
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 2.5 Etiqueta y protocolo en eventos
+    #t_2_5.mt-5(data-aos="zoom-in-left")
+      h3 Etiqueta y protocolo en eventos
 
     .row.justify-content-around.align-items-center.mt-5
       .col-lg-4
@@ -329,7 +316,7 @@
     .row.justify-content-around.align-items-center
       .col-lg-10
         .cajonAmarillo.bgr-tarjeta2-tema1.p-4.mt-3
-          p(data-aos="fade-down") Recuerde que los negocios duraderos nacen de una buena relación comercial y personal, por esto, a continuación se presentarán algunas normas de etiqueta que debe tener en cuenta y aplicar en pro de las relaciones comerciales. Por favor descargar el Anexo 2_Tips de etiqueta y protocolo.
+          p.mb-0(data-aos="fade-down") Los negocios duraderos nacen de una buena relación comercial y personal, por esto, a continuación,  se presentarán algunas normas de etiqueta que debe tener en cuenta y aplicar en pro de las relaciones comerciales. Por favor descargar el Anexo 2, Tips  de etiqueta y protocolo.
 
     .row.justify-content-around.align-items-center
       .col-lg-10
@@ -341,19 +328,17 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 PDF - Anexo 2
-                  p.text-small Tips de etiqueta y protocolo
+                  p.mb-0 Tips de etiqueta y protocolo
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
 
-    separador
+    
 
-    #t_2_6
-
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 2.6 Acuerdos comerciales
+    #t_2_6.mt-5(data-aos="zoom-in-left")
+      h3 Acuerdos comerciales
 
     .row.justify-content-around.align-items-center
       .col-10
@@ -404,7 +389,7 @@
     .row.justify-content-around.align-items-center
       .col-lg-10
         .cajonAmarillo.bgr-tarjeta2-tema1.p-4.mt-3
-          p(data-aos="fade-down") Para un estudio completo del tema, recuerde explorar todos los recursos que se encuentran disponibles en este componente formativo, y que encuentra en el menú principal, tales como material complementario, actividad didáctica, glosario, entre otros. 
+          p.mb-0(data-aos="fade-down") Para un estudio completo del tema, recuerde explorar todos los recursos que se encuentran disponibles en este componente formativo, y que encuentra en el menú principal, tales como material complementario, actividad didáctica, glosario, entre otros. 
           
 </template>
 

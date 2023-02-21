@@ -59,57 +59,7 @@ export default {
         numero: '1',
         titulo: 'Negociación y fidelización',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Técnicas y modelos de negociación',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Técnicas de fidelización',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Solución de conflictos',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Habilidades de comunicación, reacciones emocionales',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Momentos de verdad',
-            hash: 't_1_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Aplicar la escucha activa',
-            hash: 't_1_6',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Proceso y técnicas de ventas',
-            hash: 't_1_7',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo:
-              'Aplicar herramientas de ventas y <em>Customer Relationship Management</em>',
-            hash: 't_1_8',
-          },
-        ],
+        subMenu: [],
       },
 
       {
@@ -118,44 +68,7 @@ export default {
         numero: '2',
         titulo: 'Contrato de eventos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Herramientas de ventas',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Contrato con el cliente',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'El servicio posventa',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Objeciones ',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Etiqueta y protocolo en eventos',
-            hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Acuerdos comerciales',
-            hash: 't_2_6',
-          },
-        ],
+        subMenu: [],
       },
     ],
     subMenu: [

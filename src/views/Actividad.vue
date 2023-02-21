@@ -9,7 +9,7 @@
           figure
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
-        .titulo-segundo
+        .titulo-segundo.color-acento-contenido
           h2 Falso / verdadero
         p.mb-4 A través de esta actividad usted aplicará una autoevaluación del conocimiento adquirido en este módulo, identificando qué frases son verdaderas y cuáles falsas. ¡Ánimo!
         .tarjeta.actividad.p-3
