@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Venta de servicios y productos para eventos',
     descripcionCurso:
       'La acción de vender productos y/o servicios por parte de las compañías al mercado requiere del conocimiento y aplicación de técnicas y modelos, de estudiar, entender y desarrollar los procesos y el desarrollo de habilidades, con el fin de generar una negociación efectiva y un servicio posventa que les permita generar a las empresas alianzas efectivas con sus clientes. ',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {

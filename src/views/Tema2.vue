@@ -122,41 +122,41 @@
       .col-lg-9.order-2.order-lg-1
         TabsA.color-acento-contenido.mb-5        
           .tarjeta.clr-paleYellow.p-4(titulo="Número del contrato y fecha")
-            h4 Número del contrato y fecha
+            //h4 Número del contrato y fecha
             p Firmar con fecha y dar consecutivo interno el número de contrato.
 
           .tarjeta.clr-paleYellow.p-4(titulo="Objeto del contrato")
-            h4 Objeto del contrato
+            //h4 Objeto del contrato
             p Con mucha precisión y definición, se debe dejar claro el contenido y las características del evento, es decir, qué se está contratando.
 
           .tarjeta.clr-paleYellow.p-4(titulo="Información de cada una de las partes")
-            h4 Información de cada una de las partes
+            //h4 Información de cada una de las partes
             p Organizador (empresa o nombre) - Cliente (empresa o persona natural) con sus respectivos documentos de identidad y/o números de NIT empresarial.
 
           .tarjeta.clr-paleYellow.p-4(titulo="Precio")
-            h4 Precio
+            //h4 Precio
             p El valor nominal del costo de la organización del evento y las formas de pago.
 
           .tarjeta.clr-paleYellow.p-4(titulo="Descripción de las actividades del evento")
-            h4 Descripción de las actividades del evento
+            //h4 Descripción de las actividades del evento
             p Se describen la mayor cantidad de actividades a desarrollar, se debe hacer de forma específica. Importante establecer cantidades, por ejemplo: cena para 200 personas.
 
           .tarjeta.clr-paleYellow.p-4(titulo="Plazos o tiempos máximos")
-            h4 Plazos o tiempos máximos
+            //h4 Plazos o tiempos máximos
             p Tiempos de ambas partes para el desarrollo del evento, máximo y mínimo en tiempo.
 
           .tarjeta.clr-paleYellow.p-4(titulo="Fecha de realización del evento")
-            h4 Fecha de realización del evento
+            //h4 Fecha de realización del evento
             p Aquí es importante definir la(s) fecha(s) exactas del desarrollo del evento.
 
           .tarjeta.clr-paleYellow.p-4(titulo="Condiciones especiales")
-            h4 Condiciones especiales
+            //h4 Condiciones especiales
             p Se debe registrar si existe alguna condición de las partes para cancelar el evento o terminar el contrato; por ejemplo, definir que, en caso de cancelación anticipada del evento, el cliente deberá cubrir los costos a los que se haya incurrido hasta el momento, como anticipo de los proveedores que se activaron y que ya iniciaron con la preparación, así como una compensación económica al organizador por el tiempo que se trabajó en el desarrollo del evento.
 
             p Aquí también se pueden incluir cláusulas de confidencialidad, de no competencia y de responsabilidad civil si se requieren.
 
           .tarjeta.clr-paleYellow.p-4(titulo="Firmas")
-            h4 Firmas 
+            //h4 Firmas 
             p Se deben dejar registradas las firmas de los responsables de ambas partes para cerrar el contrato y poder iniciar las actividades de manera formal y responsable.
 
       .col-lg-3.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")

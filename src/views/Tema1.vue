@@ -96,27 +96,27 @@
       .col-lg-9.order-2.order-lg-1
         TabsA.color-acento-contenido.mb-5        
           .tarjeta.clr-paleYellow.p-4(titulo="Acomodativa")
-            h4 Acomodativa
+            //h4 Acomodativa
             p Es una estrategia en donde una de las partes acepta los términos de la otra parte, con el propósito de establecer una relación comercial que será duradera. No se persiguen resultados en el corto plazo por la parte que cede, pero esto será de manera temporal, algo así como ‘perder para ganar’.
 
           .tarjeta.clr-paleYellow.p-4(titulo="Competitiva")
-            h4 Competitiva
+            //h4 Competitiva
             p El objetivo de esta técnica es vender una sola vez, tratar de ganar ahora sin pensar en el mediano ni en el largo plazo. Es muy utilizada cuando se sabe que se va a vender una sola vez y el objetivo de una de las partes es ganar, así la otra parte pierda.  
 
           .tarjeta.clr-paleYellow.p-4(titulo="Evitativa")
-            h4 Evitativa
+            //h4 Evitativa
             p Cuando una de las partes sabe que va a perder porque sabe con anticipación que no puede negociar, decide entonces evitar la negociación con el lema “es mejor perder que ganar”, por lo tanto, posterga la negociación. Es frecuente en negociaciones que se realizan en caliente. 
 
           .tarjeta.clr-paleYellow.p-4(titulo="Distributiva")
-            h4 Distributiva
+            //h4 Distributiva
             p Aquí ambas partes saben qué ganan y qué pierden tanto ellos como la contraparte, entonces deciden ceder en algunos temas y ganar en otros. Esta interacción depende de los objetivos trazados por una parte, para ganar en algunos asuntos y perder en los que no sean de su interés. Aquí no hay una relación estable, es más una relación de trueque de acuerdo con el interés de ambas partes. 
             
           .tarjeta.clr-paleYellow.p-4(titulo="Colaborativa")
-            h4 Colaborativa
+            //h4 Colaborativa
             p Al contrario de la anterior, en esta negociación ambas partes ganan, ya que ceden en sus condiciones, pensando siempre en un acuerdo abierto entre las partes; es decir, se liberan las necesidades y se llega a un acuerdo en donde ambas partes queden satisfechas: es la relación ‘ganar - ganar’. Esta técnica está fundamentada en la confianza, la colaboración y el respeto por la otra parte.
 
           .tarjeta.clr-paleYellow.p-4(titulo="Por compromiso")
-            h4 Por compromiso
+            //h4 Por compromiso
             p Se basa en la confianza entre las partes, en donde se pacta un beneficio común y se comprometen a ganar o perder ambas partes. 
 
       .col-lg-3.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")
@@ -283,16 +283,16 @@
 
 
     #t_1_4.mt-5(data-aos="zoom-in-left")
-      h3.mb-4 Habilidades de comunicación, reacciones emocionales 
+      h3.mb-5 Habilidades de comunicación, reacciones emocionales 
 
-    .row.justify-content-around.align-items-center
+    .row.justify-content-around.align-items-center.mt-5
       .col-11
         .row.justify-content-around.align-items-center.background1-tema-1
           .col-lg-2.col-xs-6
-            figure(data-aos="zoom-in")
+            figure.py-2(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema1/img23.svg', alt='Texto que describa la imagen').img-45-porciento
           .col-10
-            p.margen-text.mb-0 La habilidad es la capacidad de un individuo de realizar una acción con facilidad y de manera correcta, por ello, cada persona debe enfocarse en el desarrollo de sus diferentes habilidades. En el ámbito de las ventas, la comunicación es una habilidad muy importante e indispensable, pues de esta, sumada a otras que el vendedor tiene que desarrollar, depende la eficacia de las ventas. 
+            p.margen-text.mb-0.py-2 La habilidad es la capacidad de un individuo de realizar una acción con facilidad y de manera correcta, por ello, cada persona debe enfocarse en el desarrollo de sus diferentes habilidades. En el ámbito de las ventas, la comunicación es una habilidad muy importante e indispensable, pues de esta, sumada a otras que el vendedor tiene que desarrollar, depende la eficacia de las ventas. 
 
     p.mt-5 Lo invitamos a observar el siguiente video, en el que se ampliará el tema de las habilidades de comunicación y reacciones emocionales:
 
