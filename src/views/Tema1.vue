@@ -78,7 +78,7 @@
           img(src='@/assets/curso/temas/tema1/img8.svg', alt='Texto que describa la imagen') 
 
       .col-lg-4
-        p(data-aos="fade-down").mt-3 La empresa debe encontrar un equilibrio entre los productos y los clientes para así comenzar a negociar de manera pasiva o activa; el resultado de este equilibrio serán las ventas y la participación en el mercado. Aplicando técnicas se logrará más efectividad en los tiempos, se enfocará mejor en los beneficios de la empresa, en mejorar las ventas y crear lazos más fuertes entre la empresa y los clientes, como una base fundamental para la fidelización. 
+        p(data-aos="fade-down").mt-3 La empresa debe encontrar un equilibrio entre los productos y los clientes para así comenzar a negociar de manera pasiva o activa; el resultado de este equilibrio serán las ventas y la participación en el mercado. Aplicando técnicas, se logrará más efectividad en los tiempos, se enfocará mejor en los beneficios de la empresa, en mejorar las ventas y crear lazos más fuertes entre la empresa y los clientes, como una base fundamental para la fidelización. 
 
     .row.justify-content-around.align-items-center
       .col-10
@@ -109,7 +109,7 @@
 
           .tarjeta.clr-paleYellow.p-4(titulo="Distributiva")
             //h4 Distributiva
-            p Aquí ambas partes saben qué ganan y qué pierden tanto ellos como la contraparte, entonces deciden ceder en algunos temas y ganar en otros. Esta interacción depende de los objetivos trazados por una parte, para ganar en algunos asuntos y perder en los que no sean de su interés. Aquí no hay una relación estable, es más una relación de trueque de acuerdo con el interés de ambas partes. 
+            p Aquí ambas partes saben qué ganan y qué pierden tanto ellos como la contraparte, entonces deciden ceder en algunos temas y ganar en otros. Esta interacción depende de los objetivos trazados, por una parte, para ganar en algunos asuntos y perder en los que no sean de su interés. Aquí no hay una relación estable, es más una relación de trueque de acuerdo con el interés de ambas partes. 
             
           .tarjeta.clr-paleYellow.p-4(titulo="Colaborativa")
             //h4 Colaborativa
@@ -190,7 +190,7 @@
     
       .tarjeta.color-acento-botones.p-3.text-white(x="36.6%" y="35%" numero="2")
         .h5.mb-2 Crear un programa de fidelización
-        p Se trata de abrir este canal a los clientes y no solo para ventas sino para que el cliente encuentre soluciones y oportunidades. Es una buena manera de establecer un contacto permanente con su autorización.
+        p Se trata de abrir este canal a los clientes y no solo para ventas, sino para que el cliente encuentre soluciones y oportunidades. Es una buena manera de establecer un contacto permanente con su autorización.
 
       .tarjeta.color-acento-botones.p-3.text-white(x="49.6%" y="75%" numero="3")
         .h5.mb-2 Automatizar procesos
@@ -198,7 +198,7 @@
 
       .tarjeta.color-acento-botones.p-3.text-white(x="62.6%" y="35%" numero="4")
         .h5.mb-2 Servicio postventa
-        p La venta no termina en la caja registradora, allí comienza. Establecer mecanismos de servicio después de realizada la compra es fundamental para ganarse la fidelización del cliente, es hacerlo sentir importante es preocuparse por su necesidad y por el mismo.
+        p La venta no termina en la caja registradora, allí comienza. Establecer mecanismos de servicio después de realizada la compra es fundamental para ganarse la fidelización del cliente, es hacerlo sentir importante, es preocuparse por su necesidad y por el mismo.
 
       .tarjeta.color-acento-botones.p-3.text-white(x="75.6%" y="75%" numero="5")
         .h5.mb-2 Personalizar el cliente
@@ -258,7 +258,7 @@
       SlyderA(tipo="b")
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p Como los conflictos tienden a ser cíclicos, es decir que las dos partes se buscan para mantener el conflicto activo, se pueden tomar medidas, como cambiar al vendedor por otro y hablar con el cliente para que no sienta que ‘ganó’, sino por el contrario, que está siendo ayudado para mejorar los procesos entre empresa y cliente, y que no se trata de algo personal. Así se evita que se dinamice el conflicto, evitando que repercuta en circunstancias negativas para ambas partes.
+            p Como los conflictos tienden a ser cíclicos, es decir, que las dos partes se buscan para mantener el conflicto activo, se pueden tomar medidas, como cambiar al vendedor por otro y hablar con el cliente para que no sienta que ‘ganó’, sino, por el contrario, que está siendo ayudado para mejorar los procesos entre empresa y cliente, y que no se trata de algo personal. Así se evita que se dinamice el conflicto, evitando que repercuta en circunstancias negativas para ambas partes.
 
           .col-md-6
             figure(data-aos="zoom-in-left")
@@ -492,7 +492,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img38.png')})`}"
       )
       .bloque-texto-g__texto.p-4.bloque-texto-g__texto
-        p.mb-0 Cada vez más, y gracias a la tecnología, se crean nuevas herramientas que apoyan la labor comercial, no solo para la toma del pedido sino también para que los clientes puedan autogestionarse y tomar sus propias decisiones. Con la llegada de la internet se abrieron todas las posibilidades para desarrollar procesos a medida entre empresa y cliente.
+        p.mb-0 Cada vez más, y gracias a la tecnología, se crean nuevas herramientas que apoyan la labor comercial, no solo para la toma del pedido, sino también para que los clientes puedan autogestionarse y tomar sus propias decisiones. Con la llegada de la internet se abrieron todas las posibilidades para desarrollar procesos a medida entre empresa y cliente.
 
     .row.mt-5
       p #[b Un poco más sobre estas herramientas: ]

@@ -11,7 +11,7 @@
       .col-lg-8
         .bloque-texto-z.color-secundario.p-4.ps-0.mt-3
           .bloque-texto-z__texto
-            p Como en cualquier otro proceso de negociación entre partes, los organizadores de eventos también deben establecer un contrato que tienen que firmar con sus clientes al momento de realizar cualquier servicio. En este documento el organizador debe incluir todas aquellas actividades que se compromete a realizar, de acuerdo con lo conversado previamente con el cliente o usuario, ya que es este último quien define qué es lo que se quiere en el evento a realizar.Los contratos son documentos prediseñados por el organizador que deben adaptarse a cada cliente y negocio en particular, sin importar el evento.
+            p Como en cualquier otro proceso de negociación entre partes, los organizadores de eventos también deben establecer un contrato que tienen que firmar con sus clientes al momento de realizar cualquier servicio. En este documento el organizador debe incluir todas aquellas actividades que se compromete a realizar, de acuerdo con lo conversado previamente con el cliente o usuario, ya que es este último quien define qué es lo que se quiere en el evento a realizar. Los contratos son documentos prediseñados por el organizador que deben adaptarse a cada cliente y negocio en particular, sin importar el evento.
             br
             br
             p Para poder llegar a la firma de un contrato, el organizador de eventos o su fuerza de ventas requiere contar con herramientas que faciliten este proceso, así como tener claras algunas pautas y pasos que se verán a continuación:

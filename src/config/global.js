@@ -234,11 +234,6 @@ export default {
         'Kotler, P., Armstrong, G., Araujo, L. A., & Ayala, L. E. P. (2017). <em>Fundamentos de Marketing</em>. Ed. México, DF: Pearson.',
       link: '',
     },
-    {
-      referencia:
-        'Pineda Ayala, L., Armstrong, G., Kotler, P., & Amador Araujo, L traductor. (2017). Marketing (16a. ed.). Pearson Educación.',
-      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=4426',
-    },
   ],
   creditos: {
     liderEquipo: [
