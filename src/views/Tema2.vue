@@ -66,7 +66,7 @@
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p Algunas de estas herramientas son el teléfono con un número único empresarial, el e-mail personalizado, las páginas web corporativas, la intranet o red interna de la empresa, las redes sociales corporativas, los chats internos (los ofrece el CRM) o las nuevas plataformas externas digitales gratuitas, como el WhatsApp, entre muchos otros que se deben considerar y poner a disposición para que sirvan de soporte permanente para clientes y vendedores.
+            p Algunas de estas herramientas son el teléfono con un número único empresarial, el <i>e-mail</i> personalizado, las páginas <i>web</i> corporativas, la intranet o red interna de la empresa, las redes sociales corporativas, los <i>chats</i> internos (los ofrece el CRM) o las nuevas plataformas externas digitales gratuitas, como el WhatsApp, entre muchos otros que se deben considerar y poner a disposición para que sirvan de soporte permanente para clientes y vendedores.
 
           .col-md-6
             figure(data-aos="zoom-in-left")
@@ -89,7 +89,7 @@
                   h3.mb-1 PDF - Anexo 1
                   p.mb-0 Herramientas de ventas
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/anexo-1_ herramientas de ventas.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
@@ -187,7 +187,7 @@
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
             .row(titulo="Garantías:")
               .col-12
-                p.mb-0 #[b Hablar con seriedad], ya que además de ser un requisito legal, se deben crear canales de servicio que les ayude a los clientes a solucionar inconvenientes asociados a defectos de los productos que adquirió.
+                p.mb-0 Hablar con seriedad, ya que además de ser un requisito legal, se deben crear canales de servicio que les ayude a los clientes a solucionar inconvenientes asociados a defectos de los productos que adquirió.
 
             .row(titulo="Soporte técnico:")
               .col-12
